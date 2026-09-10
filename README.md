@@ -124,7 +124,7 @@ Fail a job when any cross-split overlap is found:
 ```yaml
 - name: Check evaluation leakage
   run: |
-    python -m pip install splitguard
+    python -m pip install "git+https://github.com/thisbejim/splitguard.git"
     splitguard data/train.jsonl data/eval.jsonl --format sarif --strict > splitguard.sarif
 - name: Upload overlap report
   if: always()
