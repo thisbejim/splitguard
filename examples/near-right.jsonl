@@ -1,0 +1,1 @@
+{"id":"candidate-001","text":"The evaluator records every request and response in a deterministic fixture so a model migration can be replayed locally without an API key or a network dependency."}

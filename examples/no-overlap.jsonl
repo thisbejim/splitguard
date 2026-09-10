@@ -1,0 +1,2 @@
+{"id":"other-001","prompt":"List three properties of a good hash function for a content-addressed store.","completion":"It should be deterministic, have a low collision probability, and be practical to compute."}
+{"id":"other-002","prompt":"Describe one safe way to rotate an API credential.","completion":"Create the replacement, deploy it, verify traffic, then revoke the old credential."}

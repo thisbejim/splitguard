@@ -1,0 +1,3 @@
+{"id":"eval-001","messages":[{"role":"user","content":"Explain how a transformer uses attention to mix information across tokens."},{"role":"assistant","content":"Self-attention lets each token assign weights to other tokens, then combines their value vectors into a context-aware representation."}]}
+{"id":"eval-002","instruction":"Write a concise incident summary for a failed batch job.","output":"The batch job failed after a worker timeout; retry the incomplete shard after checking queue health and worker capacity."}
+{"id":"eval-003","messages":[{"role":"user","content":"Why should an evaluator preserve the original request order?"},{"role":"assistant","content":"Stable order makes a result reproducible and keeps each score attached to the example that produced it."}]}
