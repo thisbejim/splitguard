@@ -1,5 +1,7 @@
 # splitguard
 
+[![CI](https://github.com/thisbejim/splitguard/actions/workflows/ci.yml/badge.svg)](https://github.com/thisbejim/splitguard/actions/workflows/ci.yml)
+
 Deterministic overlap checks for LLM training and evaluation datasets.
 
 When a training, validation, or benchmark split is assembled from several
